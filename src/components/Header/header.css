@@ -1,0 +1,39 @@
+.header{
+    background-color: black;
+    color: white;
+    padding: 2rem;
+    width: 100%;
+    position: fixed;
+    top: 0;
+
+}
+
+.header-content{
+    display: flex;
+    color: inherit;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav{
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+
+.nav a{
+   text-decoration: none;
+   color: inherit;
+   font-size: 18px;
+   transition: all .2s;
+
+}
+
+.nav a:hover{
+    color: rgb(254, 252, 109);
+}
+
+.icon{
+    width: 50px;
+    height: 50px;
+}

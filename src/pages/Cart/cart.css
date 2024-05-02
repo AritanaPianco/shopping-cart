@@ -1,0 +1,47 @@
+.article-cart{
+  display: flex;
+  flex-direction: row;
+  gap: 2em;
+  width: 700px;
+  background-color: #fff;
+  margin-bottom: 20px;
+  align-items: center;
+  box-shadow: 0 0 5px black;
+}
+
+
+.article-img{
+    width: 200px;
+    height: 200px;
+}
+
+.article-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.container-cart{
+    margin: 15rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-carrinho{
+    width: fit-content;
+
+
+}
+
+.price span{
+    font-weight: bold;
+}
+
+input{
+    width: 2em;
+}
+.subTotal{
+    font-size: 20px;
+    font-weight: bold;
+}
